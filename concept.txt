@@ -1,0 +1,20 @@
+SWI:software interrupt
+pc=000000004 =>address=4
+addressing:retrieve data from memory location
+LDR:let us load data from stack into register
+!:pre-increment
+stack memory is stored in ram of computer
+we can store more data in ram than in register
+SP(stack pointer) tell us next available memory in stack
+memory in emulator is in unit of 4
+lr(link register) stores the locaction that a function should return back
+pc(program counter) keeps track of the location of the next instruction to execute
+our instruction store in memory
+CPSR register can store info about our program,it can set flag
+SUBS is going to set the flags in CPSR register
+N which is bolded in CPSR register means it identified the result was a negative number
+the eight in first four bits of CPSR represents 1 of the flags
+if we want to add a carry operation,we need to use ADC operation,it will add a query to
+a result.
+ORR:or,eor:exclusive or
+branch allow us to move our program to different locations based on the result of comparisons.
